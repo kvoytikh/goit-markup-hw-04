@@ -1,0 +1,49 @@
+.portfolio {
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+
+.portfolio-list {
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 24px;
+    row-gap: 48px;
+    margin-top: 72px;
+    justify-content: center;
+}
+
+.portfolio-title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.11111;
+    letter-spacing: 0.02em;
+    text-align: center;
+}
+
+.portfolio-card {
+    width: 360px;
+    min-width: 288px;
+}
+
+.portfolio-card-text {
+    border-bottom: 1px solid rgb(231, 233, 252);
+    border-left: 1px solid rgb(231, 233, 252);
+    border-right: 1px solid rgb(231, 233, 252);
+    padding: 32px 16px;
+}
+
+.portfolio-card-title {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+}
+
+.portfolio-card-description {
+    margin-top: 8px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
+}

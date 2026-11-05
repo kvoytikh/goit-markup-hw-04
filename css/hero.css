@@ -1,0 +1,42 @@
+.hero-section {
+    background: rgb(46, 47, 66);
+    padding-top: 188px;
+    padding-bottom: 188px;
+    background-image: linear-gradient(180deg, rgba(46, 47, 66, 0.7) 0%, rgba(46, 47, 66, 0.7) 100%), url("../images/hero-bg.jpg");
+    background-size: cover;
+}
+
+.hero {
+    color: white;
+}
+
+.hero-title {
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 1.07143;
+    letter-spacing: 0.02em;
+    text-align: center;
+    max-width: 496px;
+    margin: 0 auto;
+}
+
+.hero .hero-bttn {
+    display: block;
+    min-width: 169px;
+    padding: 16px 32px;
+    margin-top: 48px;
+    background-color: #4d5ae5;
+    color: #fff;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    border-radius: 4px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.hero .hero-bttn:hover, 
+.hero .hero-bttn:focus {
+    background-color: #404bbf;
+}
