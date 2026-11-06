@@ -68,3 +68,7 @@
 .social-media-link:focus {
     background-color: rgb(64, 75, 191);
 }
+
+.social-member-icon {
+    stroke: rgb(244, 244, 253);
+}
