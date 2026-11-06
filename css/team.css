@@ -16,7 +16,7 @@
 }
 
 .team-card-text {
-    padding: 32px 16px
+    padding: 32px 16px;
 }
 
 .team-title {
@@ -43,4 +43,22 @@
     letter-spacing: 0.02em;
     text-align: center;
     color: #434455;
+}
+
+.team-member-social-medias {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 8px;
+    gap: 24px;
+}
+
+.social-media-link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40px;
+    width: 40px;
+    background-color: rgb(77, 90, 229);
+    border-radius: 40px;
 }

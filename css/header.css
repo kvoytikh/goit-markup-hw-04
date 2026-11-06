@@ -26,8 +26,10 @@
 }
 
 .menu a {
+    position: relative;
     display: block;
     padding: 24px 0px;
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .menu li {
@@ -39,9 +41,21 @@
 
 .menu a:hover,
 .menu a:focus,
+.menu a:active,
 .contact-info a:hover,
 .contact-info a:focus {
-    color: #404bbf;
+    color: rgb(64, 75, 191);
+}
+
+.menu a:active::after {
+    position: absolute;
+    content: "";
+    display: block;
+    height: 4px;
+    width: 100%;
+    bottom: 0;
+    background-color: rgb(64, 75, 191);
+    border-radius: 2px;
 }
 
 .contact-info {

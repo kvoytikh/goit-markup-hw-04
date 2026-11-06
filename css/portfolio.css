@@ -25,6 +25,29 @@
     min-width: 288px;
 }
 
+.portfolio-image {
+    position: relative;
+    overflow: hidden;
+}
+
+.portfolio-overlay {
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 40px 32px;
+    width: 360px;
+    height: 300px;
+    min-height: 240px;
+    max-height: 300px;
+    background-color: rgb(77, 90, 229);
+
+    transform: translateY(100%);
+}
+
+.portfolio-image:hover .portfolio-overlay {
+    transform: translateY(0);
+}
+
 .portfolio-card-text {
     border-bottom: 1px solid rgb(231, 233, 252);
     border-left: 1px solid rgb(231, 233, 252);
