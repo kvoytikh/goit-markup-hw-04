@@ -54,22 +54,19 @@
     gap: 24px;
 }
 
-.social-media-link {
+.social-media-link a {
     display: flex;
     justify-content: center;
     align-items: center;
     height: 40px;
     width: 40px;
-}
-
-.social-media-link {
     background-color: rgb(77, 90, 229);
     border-radius: 40px;
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.social-media-link:hover,
-.social-media-link:focus {
+.social-media-link a:hover,
+.social-media-link a:focus {
     background-color: rgb(64, 75, 191);
 }
 

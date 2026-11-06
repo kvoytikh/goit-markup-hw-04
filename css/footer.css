@@ -67,7 +67,7 @@
     height: 40px;
     width: 40px;
     background-color: rgb(77, 90, 229);
-    fill: rgb(244, 244, 253);
+    color: rgb(244, 244, 253);
     border-radius: 40px;
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
