@@ -47,7 +47,11 @@
     color: rgb(64, 75, 191);
 }
 
-.menu a:active::after {
+.menu .current {
+    color: rgb(64, 75, 191);
+}
+
+.menu .current::after {
     position: absolute;
     content: "";
     display: block;
@@ -60,6 +64,10 @@
 
 .contact-info {
     margin-left: auto;
+}
+
+.contact-info a {
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .contact-info-list {
